@@ -1,0 +1,44 @@
+<html><head _wxhkphogpkobbkjccgfifhfjlahnoocnan_="shake_1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>取照片</title>
+
+<link rel="stylesheet" href="css/csshake.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" defer="" async="" src="https://track.uc.cn/uaest.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/red.js"></script>
+<style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style></head>
+<body>
+<!-- 红包 -->
+<div class="red"><!-- shake-chunk -->
+    <span style="background-image: url(img/takephoto_new.png);"></span>
+    <button class="redbutton" type="领取">获取照片</button>
+
+<div class="red-jg">
+       
+    </div>
+</div>
+<!-- End 红包 -->
+<!-- 按钮 -->
+<div class="t-btn" style="display: none;">
+    <button id="lingqu">取照片</button>
+</div>
+<!-- End 按钮 -->
+<script type="text/javascript">
+function yaojiang(){
+
+var string = "aaa,bbb,cc,ded,fff,ggg";   //原始数据
+var array = string.split(",");           //转化为数组
+var value = array[Math.round(Math.random()*(array.length-1))];  //随机抽取一个值
+alert(value);
+
+}
+document.getElementById('lingqu').onclick=function(){
+yaojiang();
+
+}
+
+</script>
+</body></html>
